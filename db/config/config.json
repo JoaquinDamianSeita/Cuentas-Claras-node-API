@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "cuentasclaras",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "migrations-path": "db/migrations"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "cuentasclaras",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "migrations-path": "db/migrations"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "admin",
+    "database": "cuentasclaras",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "migrations-path": "db/migrations"
+  }
+}
