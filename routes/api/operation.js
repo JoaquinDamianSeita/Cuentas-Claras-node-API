@@ -9,7 +9,7 @@ const {
   controllerOperationU,
   controllerOperationD,
   controllerOperationRB,
-} = require("../../database/controller/operation");
+} = require("../../controllers/operation");
 
 router
   .get("/allOperations", checkJWT,controllerOperationRA)

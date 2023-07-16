@@ -1,11 +1,11 @@
 {
-  "name": "mysql_node_sequelize",
+  "name": "cuentas_claras_node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "npx sequelize-cli db:migrate --config db/config/config.json --migrations-path db/migrations && node index.js",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
     "dev": "nodemon index.js"
   },

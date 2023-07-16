@@ -1,10 +1,10 @@
 const router = require("express").Router();
 
-const UserController = require("../../database/controller/user");
+const UserController = require("../../controllers/user");
 
-const User = require("../../database/models/schemas/User");
-const Operation = require("../../database/models/schemas/Operation");
-const Category = require("../../database/models/schemas/Category");
+const User = require("../../db/models/schemas/User");
+const Operation = require("../../db/models/schemas/Operation");
+const Category = require("../../db/models/schemas/Category");
 
 const moment = require("moment");
 const jwt = require("jwt-simple");
